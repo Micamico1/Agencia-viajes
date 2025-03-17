@@ -166,3 +166,16 @@ include('consultar_hoteles.php');
 ?>
 
 
+<h1>Buscar Vuelos</h1>
+<form action="buscar_vuelo.php" method="GET">
+    <label for="origen">Origen:</label>
+    <input type="text" id="origen" name="origen" required><br><br>
+
+    <label for="destino">Destino:</label>
+    <input type="text" id="destino" name="destino" required><br><br>
+
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha" required><br><br>
+
+    <input type="submit" value="Buscar Vuelo">
+</form>
